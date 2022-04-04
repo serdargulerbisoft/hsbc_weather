@@ -1,4 +1,4 @@
-# hsbc_weather
+# hsbc_weather - bisoft
 Weather Application
 
 This application consists of 2 parts.
