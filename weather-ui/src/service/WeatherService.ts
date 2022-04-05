@@ -16,7 +16,7 @@ export default class WeatherService {
             const result = await fetch(URI)
 
             if (!result.ok) {
-                throw new Error(`Weather API request failed... Status  ${result.status}`);
+                throw new Error(`Weather API request failed.. Status  ${result.status}`);
             }
             const cities = await result.json()
             return cities;
