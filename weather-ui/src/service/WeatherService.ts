@@ -22,7 +22,7 @@ export default class WeatherService {
             return cities;
 
         } catch (error) {
-            return Promise.reject("Error calling API...")
+            return Promise.reject("Error calling API..")
         }
 
     }
