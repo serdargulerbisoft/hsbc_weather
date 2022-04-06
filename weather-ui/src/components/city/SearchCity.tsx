@@ -49,7 +49,7 @@ const SearchCity = () => {
 
     return (
         <div>
-            <h2>Weather Station</h2>
+            <h2>Weather Station - Cyangate</h2>
 
             <br /><br />
 
