@@ -21,6 +21,7 @@ public class WeatherServiceImpl implements WeatherService {
 
     @Override
     public HttpResponse getWeather() throws IOException, InterruptedException {
+        System.out.println("Cyangate demo");
         return HttpUtil.send(WEATHER_URI);
     }
 
